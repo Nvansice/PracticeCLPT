@@ -1,0 +1,500 @@
+   20  git commit
+   21  git add src/ci/command.c
+   22  git commit
+   23  make clean
+   24  make debug
+   25  mkae test_week2
+   26  make test_week2
+   27  git add .
+   28  commit -m "Thursday Jan 22 4:51PM"
+   29  git commit -m "Thursday Jan 22 4:51PM"
+   30  make cleamn
+   31  make clean
+   32  make debug
+   33  make test_week2
+   34  git status
+   35  git push
+   36  make clean
+   37  make debug
+   38  make test_week2
+   39  make clean
+   40  make debug
+   41  make test_week2
+   42  git add .
+   43  git commit -m "Thursday Jan 22 5:18PM"
+   44  git push
+   45  ci_reference -i week2/add_rand.s
+   46  ci_reference -i testcases/week2/add_rand.s
+   47  bin/ci -i testcases/week2/add_rand.s
+   48  gdb --args bin/ci -i testcases/week2/add_rand.s
+   49   bin/ci -i testcases/week2/add_rand.s
+   50  gdb --args bin/ci -i testcases/week2/add_rand.s
+   51  clean
+   52  clear
+   53  make clean
+   54  make debug
+   55  make test_week2
+   56  git add .
+   57  git commit "Jan 22 6:14PM"
+   58  git commit -m "Jan 22 6:14PM"
+   59  git push
+   60  make clean
+   61  make debug
+   62  make test_week2
+   63  make clean
+   64  make debug
+   65  make test_week2
+   66  make clean
+   67  make debug
+   68  make test_week2
+   69  make clean
+   70  make debug
+   71  make test_week2
+   72  bin/ci -i testcases/week2/print.s
+   73  ci_reference -i testcases/week2/print.s
+   74  make clean
+   75  make debug
+   76  make clean
+   77  make debug
+   78  make test_week2
+   79  bin/ci -i testcases/week2/print.s > /tmp/my.out
+   80  ci_reference -i testcases/week2/print.s > /tmp/ref.out
+   81  diff -u /tmp/ref.out /tmp/my.out | head -n 40
+   82  make clean
+   83  make debug
+   84  make test_week2
+   85  git add .
+   86  git commit -m "final week 2 Jan 22 6:49PM"
+   87  git push
+   88  make clean
+   89  make debug
+   90  make test_week3
+   91  make clean
+   92  make debug
+   93  make test_week3
+   94  make clean
+   95  make debug
+   96  make test_week3
+   97  make clean
+   98  make debug
+   99  make clean
+  100  make debug
+  101  make clean
+  102  make debug
+  103  make test_week3
+  104  make clean
+  105  make debug
+  106  make test_week3
+  107  make clean
+  108  make debug
+  109  make test_week3
+  110  make clean
+  111  make debug
+  112  make test_week3
+  113  git add
+  114  git add .
+  115  git commit
+  116  git add .
+  117  git commit -m "Jan 27 Commit 1"
+  118  git push
+  119  make clean
+  120  make debuug
+  121  make debug
+  122  make clean
+  123  make debug
+  124  make test_week3
+  125  make clean
+  126  make debug
+  127  make test_week3
+  128  git add .
+  129  git commit -m "JAN 27 COMMIT 2"
+  130  git push
+  131  exit
+  132  make clean
+  133  make debug
+  134  make test_week3
+  135  make clean
+  136  make debug
+  137  make clean
+  138  make debug
+  139  make test_week3
+  140  make clean
+  141  make debug
+  142  make test_week3
+  143  make clean
+  144  make debug
+  145  make test_week3
+  146  git add . 
+  147  git log
+  148  git commit -m "JAN 27 COMMIT 3"
+  149  git push
+  150  make clean
+  151  make debug
+  152  make test_week3
+  153  make clean
+  154  make debug
+  155  make test_week3
+  156  make clean
+  157  make debug
+  158  make test_week3
+  159  make clean
+  160  make debug
+  161  make test_week3
+  162  make clean 
+  163  make debug
+  164  make test_week3
+  165  git add
+  166  git add .
+  167  git commit -m "JAN 27 COMMIT 4"
+  168  git push
+  169  exit
+  170  make clean
+  171  make debug
+  172  make clean
+  173  make debug
+  174  make clean
+  175  make debug
+  176  make test_week4
+  177  make clean
+  178  make debug
+  179  make clean
+  180  make debug
+  181  make clean
+  182  make debug
+  183  make test_week4
+  184  make clean
+  185  make debug
+  186  make clean
+  187  make debug
+  188  make clean
+  189  make debug
+  190  make test_week4
+  191  make clean
+  192  make debug 
+  193  make test_week3
+  194  make clean
+  195   make debug
+  196  make test_week3
+  197  make clean 
+  198  make debug
+  199  make test_week4
+  200  make clean
+  201  make debug
+  202  make test_week4
+  203  git add
+  204  git add.
+  205  git add .
+  206  git commit -m "Commit 1 feb 2 10:23 AM"
+  207  make clean
+  208  make debug
+  209  make test_week4
+  210  make clean
+  211  make debug
+  212  make test_week4
+  213  git add.
+  214  git add .
+  215  git commit -m "COMMIT FINAL WEEK 4"
+  216  git push
+  217  make clean
+  218  make debug
+  219  make clean
+  220  make debug
+  221  make test_week4
+  222  git add .
+  223  git commit -m "Commit feb 3 Final week 4"
+  224  git push
+  225  make clean
+  226  make debug
+  227  make test_week4
+  228  make clean
+  229  make debug
+  230  make test_week4
+  231  make clean
+  232  make clean
+  233  make debug
+  234  make test_week4
+  235  make clean
+  236  make debug
+  237  make test_week4
+  238  git add .
+  239  git commit -m "Commit final CI 2 feb 3"
+  240  git push
+  241  git clone git@github.com:cs429-sp2026/mm-lab-Nvansice.git
+  242  make clean
+  243  make debug
+  244  make test_week1
+  245  make clean
+  246  make debug
+  247  make
+  248  ./heap_runner
+  249  ./runner -r traces/week1/short1.rep
+  250  ./runner -r traces/week1/short2.rep
+  251  ./runner -r traces/week1/short1-bal.rep
+  252  ./runner -r traces/week1/short2-bal.rep
+  253  ./runner -r traces/week1/oom_easy.rep
+  254  ./bump_test
+  255  python3 driver.py -w 1
+  256  make clean
+  257  make debug
+  258  make
+  259  ./heap_runner
+  260  ./runner -r traces/week1/short1.rep
+  261  ./runner -r traces/week1/short2.rep
+  262  ./runner -r traces/week1/short1-bal.rep
+  263  ./runner -r traces/week1/short2-bal.rep
+  264  ./runner -r traces/week1/oom_easy.rep
+  265  ./bump_test
+  266  python3 driver.py -w 1
+  267  git add .
+  268  git commit -m "Commit Week 1"
+  269  git push
+  270  make clean
+  271  make debug
+  272   make
+  273  ./heap_runner
+  274  ./runner -r traces/week1/short1.rep
+  275  ./runner -r traces/week1/short2.rep
+  276  ./runner -r traces/week1/short1-bal.rep
+  277  ./runner -r traces/week1/short2-bal.rep
+  278  ./runner -r traces/week1/oom_easy.rep
+  279  ./bump_test
+  280  python3 driver.py -w 1
+  281  git add .
+  282  git commit -m 
+  283  git commit -m "Commit week1 pt 2"
+  284  git push
+  285  make clean
+  286  make debug
+  287  make
+  288  ./heap_runner
+  289  ./runner -r traces/week1/short1.rep
+  290  ./runner -r traces/week1/short2.rep
+  291  ./runner -r traces/week1/short1-bal.rep
+  292  ./runner -r traces/week1/short2-bal.rep
+  293  ./runner -r traces/week1/oom_easy.rep
+  294  ./bump_test
+  295  python3 driver.py -w 1
+  296  make clean
+  297  make debug
+  298  make heap_runner && ./heap_runner
+  299  python3 driver.py -w1
+  300  ./runner -d
+  301  python3 driver.py
+  302  git add.
+  303  git add .
+  304  git commit -m "week2 MM C1"
+  305  make clean
+  306  make debug
+  307  make heap_runner && ./heap_runner
+  308  python3 driver.py -w1
+  309  ./runner -d
+  310  python3 driver.py
+  311  make heap_runner && ./heap_runner
+  312  python3 driver.py -w1
+  313  ./runner -d
+  314  python3 driver.py
+  315  git add . 
+  316  git commit -m "MM LAB COMMIT WEEK 2"
+  317  git push
+  318  make clean
+  319  make deug
+  320  make debug
+  321  make heap_runner && ./heap_runner
+  322  python3 driver.py -w1
+  323  ./runner -d
+  324  python3 driver.py
+  325  make clean
+  326  make debug
+  327  make heap_runner && ./heap_runner
+  328  python3 driver.py -w1
+  329  ./runner -d
+  330  python3 driver.py
+  331  git add .
+  332  git commit -m "MM C2"
+  333  make clean
+  334  make debug
+  335  make 
+  336  make python.py
+  337  make driver.py
+  338  git clone
+  339  git clone PracticeCLTP
+  340  git clone git@github.com:Nvansice/PracticeCLPT.git
+  341  make testcases
+  342  make clean
+  343  make debug
+  344  gdb run
+  345  run
+  346  make 
+  347  make echo
+  348  make testcases
+  349  make trike
+  350  cat makefile
+  351  make trike
+  352  ./bin/orderlogs -f testcases/single_new
+  353  gdb ./bin/orderlogs
+  354  make trex
+  355  make stego
+  356  make stego
+  357  make trex
+  358  make bronto
+  359  make trex
+  360  make trex
+  361  make trex
+  362  make spinosaurus
+  363  make trex
+  364  gdb bin/orderlogs
+  365  gdb -tui
+  366  make stego
+  367  make raptor
+  368  make stego
+  369  ./bin/orderlogs -f testcases/<somefile>
+  370  ./ref_order -f testcases/<somefile>
+  371  make trike
+  372  make stego
+  373  make trex
+  374  mak estego
+  375  make stego
+  376  git clone fa2025e1-a-master
+  377  git clone PracticeCLTP
+  378  git clone PRACTICECLTP
+  379  cd f2025e1-a-master
+  380  ls
+  381  cd PracticeCLPT
+  382  ls
+  383  ls f2025e1-a-master/
+  384  cd f2025e1-a-master/
+  385  make bronto
+  386  code makefile
+  387  cat -makefile
+  388  cat makefile
+  389  echo makefile
+  390  cat Makefile
+  391  make trex
+  392  make trike
+  393  q
+  394  close
+  395  quit
+  396  exit
+  397  ls
+  398  cd PracticeCLPT
+  399  ls
+  400  cd f2025e1-a-master
+  401  ls
+  402  cat Makefile
+  403  cat README.md
+  404  make stego
+  405  cd f2025-a-master
+  406  cd f2025e1-a-master
+  407  make bronto
+  408  make stego
+  409  make stego
+  410  make stego
+  411  make trex
+  412  make 
+  413  make raptor
+  414  git pull
+  415  make trex
+  416  make stego
+  417  ../../
+  418  cd ../../
+  419  cd../
+  420  cd ../
+  421  ls
+  422  git pull
+  423  git pull
+  424  cd nvansice
+  425  ls
+  426  cd PracticeCLPT
+  427  git pull
+  428  ls
+  429  cd f2025e1-a-master
+  430  make stego
+  431  git clone git@github.com:Nvansice/PracticeCLPT.git
+  432  rm PracticeCLPT
+  433  rm -rf PracticeCLPT
+  434  git clone git@github.com:Nvansice/PracticeCLPT.git
+  435  ls
+  436  cd f2025e1-a-master
+  437  git stego
+  438  make stego
+  439  chmod +x ref_order 
+  440  make stego
+  441  gdb init
+  442  gdb reorder.c
+  443  gdb makefile
+  444  clear
+  445  ls
+  446  make trex
+  447  make stego
+  448  gdb main.o
+  449  clear
+  450  make spinosaurus
+  451  make stego
+  452  clear
+  453  make trex
+  454  run bin/orderlogs
+  455  bin/orderlogs
+  456  bin/orderlogs -f testcases/all_new 
+  457  make trike
+  458  gdb bin/orderlogs
+  459  help breakpoint
+  460  help
+  461  break 0
+  462  gdb 
+  463  make trike
+  464  gdb bin/orderlogs
+  465  make trike
+  466  make stego
+  467  gdb
+  468  gdb bin/orderlogs
+  469  make stego
+  470  exit
+  471  git clone git@github.com:Nvansice/CLTPPract2.git
+  472  ls
+  473  exit
+  474  make stego
+  475  make trex
+  476  make bronto
+  477  cd f2025e1-a-master
+  478  make stego
+  479  make bronto
+  480  make stego
+  481  make stego
+  482  make stego
+  483  git pull
+  484  cd f2025e1-b-master/
+  485  make trex
+  486  make trike
+  487  gdb bin/orderlogs
+  488  make stego
+  489  gdb bin/orderlogs
+  490  make spinosaurus
+  491  make trike
+  492  gdb bin/orderlogs
+  493  cd f2025e1-b-master/
+  494  make trike
+  495  gdb bin/orderlogs
+  496  gdb bin/orderlogs 
+  497  make trike
+  498  gdb bin/orderlogs 
+  499  make stego
+  500  git pull
+  501  git pull
+  502  make trike
+  503  make trex
+  504  cd f2025e1-c-master/
+  505  make trike
+  506  gdb bin/orderlogs 
+  507  make stego
+  508  gdb bin/orderlogs 
+  509  make trike
+  510  make stego
+  511  gdb bin/orderlogs 
+  512  make trike
+  513  make stego
+  514  make history
+  515  history
+  516  cat history >> "shell_logs.txt"
+  517   echo history >> shell_logs.txt
+  518  cat history > shell_logs.txt
+  519  history > shell_logs.txt
