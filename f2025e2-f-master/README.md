@@ -8,15 +8,25 @@
 2. Which target verifies your output is identical to the given reference? (1 word max)
 
 **Linux CLI**:
-1. At least one testcase in the testcases file fails, paste a full, single  command that runs a failing testcase: (5 words max)
+1. At least one testcase in the testcases file fails, paste a full, single  command that runs a failing testcase: (5 words max) gdb bin/sb run testcases/helloworld.trace
 
 **GDB**:
 1. When running a failing testcase, what line does the program segfault at in its given state? Paste the line.(20 characters max)
+ strcpy(res, sb->content);
 2. What is the call stack when the program segfaults in its given state? Paste the call stack output by GDB. (20 words max)
-
+#0  __strcpy_avx2 () at ../sysdeps/x86_64/multiarch/strcpy-avx2.S:326
+#1  0x000055555555619d in sb_toString ()
+#2  0x000055555555543b in main ()
 **C**:
 1. What logic error caused the program to segfault? (10 words max) Note, "dereferencing null" is not sufficient.
+
+the program was trying to put a string into a space too small as it was missing the NUL terminator
+
 2. Directly following this bug, how did you resolve the error? (10 words max)
+
+added one to account for it 
+
+
 
 ## [IMPORTANT] After you SSH into a lab machine: Note that
 - **ALL git commands must be in the command line.**
