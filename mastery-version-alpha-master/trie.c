@@ -10,19 +10,26 @@ static void free_trie_node(trie_node_t** node);
  * @param prefix the prefix to search with
  */
 void autocomplete(trie_node_t* root, char* prefix) {
-    if (!prefix) {
-        return;
+    if (root == NULL|| !prefix) {
+       return;
     }
     printf("finding all completions of prefix \"%s\":\n", prefix);
     int len = 0;
+
     trie_node_t* letter = root;
+    
+    if (letter == NULL){
+        free(letter);
+        return;
+    }
     char* itr = prefix;
-    while (*itr && len < MAX_WORD_LENGTH) {
+    while (*itr && len < MAX_WORD_LENGTH + 1) {
+        if (!letter){return;}
         letter = letter->children[*itr - FIRST_VALID_CHAR];
         itr++;
         len++;
     }
-    char* word = malloc(MAX_WORD_LENGTH * sizeof(char));
+    char* word = malloc(MAX_WORD_LENGTH + 1 * sizeof(char));
     if (!word) {
         return;
     }

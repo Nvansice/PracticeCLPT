@@ -1,0 +1,505 @@
+  117  run
+  118  make 
+  119  make echo
+  120  make testcases
+  121  make trike
+  122  cat makefile
+  123  make trike
+  124  ./bin/orderlogs -f testcases/single_new
+  125  gdb ./bin/orderlogs
+  126  make trex
+  127  make stego
+  128  make stego
+  129  make trex
+  130  make bronto
+  131  make trex
+  132  make trex
+  133  make trex
+  134  make spinosaurus
+  135  make trex
+  136  gdb bin/orderlogs
+  137  gdb -tui
+  138  make stego
+  139  make raptor
+  140  make stego
+  141  ./bin/orderlogs -f testcases/<somefile>
+  142  ./ref_order -f testcases/<somefile>
+  143  make trike
+  144  make stego
+  145  make trex
+  146  mak estego
+  147  make stego
+  148  git clone fa2025e1-a-master
+  149  git clone PracticeCLTP
+  150  git clone PRACTICECLTP
+  151  cd f2025e1-a-master
+  152  ls
+  153  cd PracticeCLPT
+  154  ls
+  155  ls f2025e1-a-master/
+  156  cd f2025e1-a-master/
+  157  make bronto
+  158  code makefile
+  159  cat -makefile
+  160  cat makefile
+  161  echo makefile
+  162  cat Makefile
+  163  make trex
+  164  make trike
+  165  q
+  166  close
+  167  quit
+  168  exit
+  169  ls
+  170  cd PracticeCLPT
+  171  ls
+  172  cd f2025e1-a-master
+  173  ls
+  174  cat Makefile
+  175  cat README.md
+  176  make stego
+  177  cd f2025-a-master
+  178  cd f2025e1-a-master
+  179  make bronto
+  180  make stego
+  181  make stego
+  182  make stego
+  183  make trex
+  184  make 
+  185  make raptor
+  186  git pull
+  187  make trex
+  188  make stego
+  189  ../../
+  190  cd ../../
+  191  cd../
+  192  cd ../
+  193  ls
+  194  git pull
+  195  git pull
+  196  cd nvansice
+  197  ls
+  198  cd PracticeCLPT
+  199  git pull
+  200  ls
+  201  cd f2025e1-a-master
+  202  make stego
+  203  git clone git@github.com:Nvansice/PracticeCLPT.git
+  204  rm PracticeCLPT
+  205  rm -rf PracticeCLPT
+  206  git clone git@github.com:Nvansice/PracticeCLPT.git
+  207  ls
+  208  cd f2025e1-a-master
+  209  git stego
+  210  make stego
+  211  chmod +x ref_order 
+  212  make stego
+  213  gdb init
+  214  gdb reorder.c
+  215  gdb makefile
+  216  clear
+  217  ls
+  218  make trex
+  219  make stego
+  220  gdb main.o
+  221  clear
+  222  make spinosaurus
+  223  make stego
+  224  clear
+  225  make trex
+  226  run bin/orderlogs
+  227  bin/orderlogs
+  228  bin/orderlogs -f testcases/all_new 
+  229  make trike
+  230  gdb bin/orderlogs
+  231  help breakpoint
+  232  help
+  233  break 0
+  234  gdb 
+  235  make trike
+  236  gdb bin/orderlogs
+  237  make trike
+  238  make stego
+  239  gdb
+  240  gdb bin/orderlogs
+  241  make stego
+  242  exit
+  243  git clone git@github.com:Nvansice/CLTPPract2.git
+  244  ls
+  245  exit
+  246  make stego
+  247  make trex
+  248  make bronto
+  249  cd f2025e1-a-master
+  250  make stego
+  251  make bronto
+  252  make stego
+  253  make stego
+  254  make stego
+  255  git pull
+  256  cd f2025e1-b-master/
+  257  make trex
+  258  make trike
+  259  gdb bin/orderlogs
+  260  make stego
+  261  gdb bin/orderlogs
+  262  make spinosaurus
+  263  make trike
+  264  gdb bin/orderlogs
+  265  cd f2025e1-b-master/
+  266  make trike
+  267  gdb bin/orderlogs
+  268  gdb bin/orderlogs 
+  269  make trike
+  270  gdb bin/orderlogs 
+  271  make stego
+  272  git pull
+  273  git pull
+  274  make trike
+  275  make trex
+  276  cd f2025e1-c-master/
+  277  make trike
+  278  gdb bin/orderlogs 
+  279  make stego
+  280  gdb bin/orderlogs 
+  281  make trike
+  282  make stego
+  283  gdb bin/orderlogs 
+  284  make trike
+  285  make stego
+  286  make history
+  287  history
+  288  cat history >> "shell_logs.txt"
+  289   echo history >> shell_logs.txt
+  290  cat history > shell_logs.txt
+  291  history > shell_logs.txt
+  292  git add .
+  293  git commit -m "commit pract"
+  294  git push
+  295  git pull
+  296  git add.
+  297  git add .
+  298  git commit -m "commit practice C"
+  299  git push
+  300  git pull
+  301  git config pull.rebase false
+  302  git add .
+  303  git commit -m "commit C"
+  304  git push
+  305  git pull
+  306  git commit
+  307  git push
+  308  cd ../
+  309  ls
+  310  cd f2025e2-d-master
+  311  make trex
+  312  ls
+  313  make trike
+  314  make stego
+  315  make trike
+  316  make trex
+  317  clear
+  318  make potbelly
+  319  make cheba
+  320  make mikes
+  321  make cheba
+  322  gdb bin/sb
+  323  make potbelly
+  324  make cheba
+  325  gdb sb
+  326  gdb bin/sb
+  327  make schlotzkeys
+  328  ls
+  329  cd f2025e2-d-master/-
+  330  cd f2025e2-d-master/
+  331  make schlotzkeys
+  332  make mikes
+  333  make cheba
+  334  gdb bin/sb
+  335  make potbelly
+  336  make potbelly
+  337  gdb bin/sb 
+  338  make potbelly
+  339  make cheba
+  340  make potbelly
+  341  gdb bin/sb
+  342  make potbelly
+  343  make cheba
+  344  gdb -x bin/sb 
+  345  gdb bin/sb 
+  346  make potbelly
+  347  make cheba
+  348  make potbelly
+  349  make cheba
+  350  git pull
+  351  ls
+  352  cd Downloads
+  353  ls
+  354  cd ../
+  355  cd PracticeCLPT
+  356  ls
+  357  git pull
+  358  ls
+  359  ls
+  360  cd mastery-version-a-master
+  361  ls
+  362  make debug
+  363  make check
+  364  gdb mini_ci
+  365  make debug
+  366  make check
+  367  make debug
+  368  make check
+  369  gdb mini_ci
+  370  make debug
+  371  make check
+  372  gdb mini_ci
+  373  make debug
+  374  make check
+  375  gdb mini_ci
+  376  make debug
+  377  make check
+  378  gdb
+  379  gdb mini_ci
+  380  make debug
+  381  make check
+  382  gdb mini_ci
+  383  make debug
+  384  make check
+  385  git clone git@github.com:cs429-sp2026/shared-repo-round1-nvansice.git
+  386  ls
+  387  cd shared-repo-round1-nvansice
+  388  ls
+  389  cat README.md
+  390  ./time_left.sh
+  391  ./time_left.sh
+  392  ./time_left.sh
+  393  ./time_left.sh
+  394  make debug
+  395  make check
+  396  gdb ref_treap
+  397  make all
+  398  make debug
+  399  make check
+  400  gdb -x ref_treap
+  401  gdb bin/treap
+  402  make all
+  403  make debug
+  404  make check
+  405  gdb bin/treap
+  406  make debug
+  407  make check
+  408  make debug
+  409  make check
+  410  gdb bin/treap
+  411  make debug
+  412  make check
+  413  gdb bin/treap
+  414  make debug
+  415  gdb bin/treap
+  416  make debug
+  417  make all
+  418  make debug
+  419  gdb bin/treap
+  420  git clone se-lab-nicholas
+  421  git clone git@github.com:cs429-sp2026/se-lab-nicholas.git
+  422  make week1 2>&1
+  423  make week1
+  424  bin/test-hw
+  425  make week1
+  426  make clean
+  427  make week1
+  428  bin/test-hw
+  429  make week1
+  430  git add .
+  431  git commit -m "SE commit 1"
+  432  git push
+  433  make clean
+  434  make week1
+  435  bin/test-hw
+  436  make clean
+  437  make week1
+  438  You’re not done with Week 1 yet.
+  439  Your output means:
+  440  	•	Regfile is good: “Passed all regfile hardware tests.”
+  441  	•	ALU is failing: “Failed 16 ALU hardware tests.”
+  442  	•	Because Checkpoint 1 requires full points on bin/test-hw, a nonzero number of ALU failures means Week 1 is not complete yet.  ￼  ￼
+  443  So your situation is:
+  444  	•	regfile_read / regfile_write are probably fine
+  445  	•	the problem is likely in one or more of:
+  446  	•	alu
+  447  	•	cond_holds
+  448  	•	init_rca
+  449  	•	ripple_carry_add  ￼
+  450  What to do next:
+  451  	1.	Focus only on the ALU-related functions in src/base/hw_elts.c.
+  452  	2.	Recheck:
+  453  	•	add/subtract result logic
+  454  	•	NZCV flag updates
+  455  	•	carry vs overflow logic
+  456  	•	shifts / bitwise operations
+  457  	•	whether alu() is using your ripple-carry adder correctly
+  458  	3.	Rebuild and rerun:
+  459  make week1
+  460  bin/test-hw
+  461  A very common reason for this exact result is:
+  462  	•	the arithmetic result looks right, but N/Z/C/V flags are wrong
+  463  	•	or subtracti
+  464  make week1
+  465  bin/test-hw
+  466  git add .
+  467  git commit -m "SE week 1 2.0"
+  468  git push
+  469  git pull git@github.com:Nvansice/PracticeCLPT.git
+  470  git pull
+  471  ls
+  472  cd PracticeCLPT
+  473  ls
+  474  git pull
+  475  ls
+  476  make shlotzkeys
+  477  cd
+  478  ls
+  479  cd PracticeCLPT
+  480  ls
+  481  cd f2025e2-f-master/
+  482  ls
+  483  cd makefile
+  484  cd Makefile
+  485  make potbelly
+  486  make cheba
+  487  chmod +x ret_order
+  488  cd .
+  489  cd .
+  490  cd ..
+  491  ls
+  492  rm f2025e2-f-master
+  493  rm -f f2025e2-f-master
+  494  rm -r f2025e2-f-master/
+  495  ls
+  496  ls
+  497  cd PracticeCLPT
+  498  git pull
+  499  ls
+  500  cd f2025e2-f-master
+  501  git pull
+  502  cd f2025e2-f-master
+  503  ls
+  504  ls
+  505  cat ref_sb
+  506  rm -r f20225e22-f-master
+  507  rm -r f2025e2-f-master
+  508  cd ..
+  509  rm -r f2025e2-f-master
+  510  git pull
+  511  cd ..
+  512  ls
+  513  rm -r PracticeCLPT
+  514  y
+  515  ls
+  516  git clone git@github.com:Nvansice/PracticeCLPT.git
+  517  ls
+  518  cd PracticeCLPT
+  519  ls
+  520  cd f2025e2-f-master
+  521  make potbelly
+  522  make cheba
+  523  gdb
+  524  gdb testcases/catdel.trace 
+  525  gdb bin/sb 
+  526  make potbelly
+  527  gdb bin/sb
+  528  gdb bin/sb
+  529  make subway
+  530  make potbelly
+  531  make cheba
+  532  gdb bin/sb 
+  533  make subway
+  534  make potbelly
+  535  make cheba
+  536  gdb bin/sb
+  537  make potbelly
+  538  gdb bin/sb
+  539  make mikes
+  540  make potbelly
+  541  make subway
+  542  make potbelly
+  543  gdb bin/sb
+  544  make subway
+  545  make potbelly
+  546  make cheba
+  547  gdb bin/sb
+  548  make subway
+  549  make potbelly
+  550  make cheba
+  551  make subway
+  552  make potbelly
+  553  make cheba
+  554  gdb bin/sb run testcases/helloworld.trace
+  555  run testcases/helloworld.trace 
+  556  rn testcases/helloworld.trace 
+  557  cat history "shell_logs.txt"
+  558  cat history >> "shell_logs.txt"
+  559  history | cat >> "shell_logs.txt"
+  560  git add .
+  561  git commit -m "finished"
+  562  git push
+  563  cd ..
+  564  git pull
+  565  ls
+  566  cd mastery-version-alpha-master
+  567  make stitch
+  568  make lilo
+  569  make nani
+  570  gdb bin/second_trie
+  571  make stitch
+  572  make lilo
+  573  make nani
+  574  gdb bin/second_trie 
+  575  make stitch
+  576  make lilo
+  577  make nani
+  578  make stitch
+  579  make lilo
+  580  make nani
+  581  gdb bin/second_trie 
+  582  make stitch
+  583  make lilo
+  584  make nani
+  585  make stitch
+  586  make lilo
+  587  make nani
+  588  make lilo
+  589  make stitch
+  590  make lilo
+  591  make nani
+  592  gdb bin/second_trie 
+  593  make stitch
+  594  make stithc
+  595  make stitch
+  596  make stitch
+  597  make lilo
+  598  make nani
+  599  gdb bin/second_trie 
+  600  make stitch
+  601  make lilo
+  602  gdb bin/second_trie 
+  603  make lilo
+  604  make stitch
+  605  gdb bin/second_trie 
+  606  make stitch
+  607  make lilo
+  608  make nani
+  609  make stitch
+  610  make lilo
+  611  make nani
+  612  make stitch
+  613  make stitch
+  614  make lilo
+  615  make nani
+  616  history | cat >> "shell_logs.txt
+
+e
+exit
+q
+"
