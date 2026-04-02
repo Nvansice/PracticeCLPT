@@ -5,6 +5,7 @@ static void free_token(struct Token** tok);
 
 int calculate_result(struct Reader *reader) {
     struct Token *head = NULL;
+    
     // create a linkedlist based stack of tokens.
     // pop when a operator is encountered and add the result to the stack
     while (reader->token != NULL) {
@@ -14,12 +15,12 @@ int calculate_result(struct Reader *reader) {
             // this is an operation:
             struct Token *op = head;
             struct Token *val_a = head->next;
-            if (!val_a) {
+            if (val_a == NULL) {
                 reader->had_error = true;
                 return -1;
             }
             struct Token *val_b = head->next->next;
-            if (!val_b) {
+            if (val_b == NULL) {
                 reader->had_error = true;
                 return -1;
             }
@@ -43,15 +44,20 @@ int calculate_result(struct Reader *reader) {
                     new_val = val_b->val - val_a->val;
                     break;
                 default:
+                    reader->had_error = true;
                     return -1;
             }
-            free_token(&val_b);
             free_token(&val_a);
             free_token(&op);
             struct Token *new_token = malloc(sizeof(struct Token));
+            if (new_token == NULL){
+                reader->had_error = true;
+                return -1;
+            }
             new_token->next = val_b->next;
             new_token->tok_type = TOK_NUM;
             new_token->val = new_val;
+            free_token(&val_b);
 
             head = new_token;
         }

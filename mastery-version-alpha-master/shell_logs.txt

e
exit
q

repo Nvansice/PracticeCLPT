@@ -497,9 +497,4 @@
   613  make stitch
   614  make lilo
   615  make nani
-  616  history | cat >> "shell_logs.txt
-
-e
-exit
-q
-"
+  616  history | cat >> "shell_logs.txt"
