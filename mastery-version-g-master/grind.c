@@ -71,8 +71,13 @@ static bool print_and_free_list(struct grind_elem* head) {
     }
     while (itr != NULL) {
         printf("Uh Oh! %ld Bytes Leaked From Line: %d\n", itr->size, itr->index);
-        free_grind_elem(&itr);
-        itr = itr->next;
+        if (itr == NULL){
+            free_grind_elem(&itr);
+        }
+        else{
+            itr = itr->next;
+        }
+
     }
     return true;
 }

@@ -1,0 +1,500 @@
+   52  gdb bin/treap
+   53  make debug
+   54  gdb bin/treap
+   55  make debug
+   56  make all
+   57  make debug
+   58  gdb bin/treap
+   59  git clone se-lab-nicholas
+   60  git clone git@github.com:cs429-sp2026/se-lab-nicholas.git
+   61  make week1 2>&1
+   62  make week1
+   63  bin/test-hw
+   64  make week1
+   65  make clean
+   66  make week1
+   67  bin/test-hw
+   68  make week1
+   69  git add .
+   70  git commit -m "SE commit 1"
+   71  git push
+   72  make clean
+   73  make week1
+   74  bin/test-hw
+   75  make clean
+   76  make week1
+   77  You’re not done with Week 1 yet.
+   78  Your output means:
+   79  	•	Regfile is good: “Passed all regfile hardware tests.”
+   80  	•	ALU is failing: “Failed 16 ALU hardware tests.”
+   81  	•	Because Checkpoint 1 requires full points on bin/test-hw, a nonzero number of ALU failures means Week 1 is not complete yet.  ￼  ￼
+   82  So your situation is:
+   83  	•	regfile_read / regfile_write are probably fine
+   84  	•	the problem is likely in one or more of:
+   85  	•	alu
+   86  	•	cond_holds
+   87  	•	init_rca
+   88  	•	ripple_carry_add  ￼
+   89  What to do next:
+   90  	1.	Focus only on the ALU-related functions in src/base/hw_elts.c.
+   91  	2.	Recheck:
+   92  	•	add/subtract result logic
+   93  	•	NZCV flag updates
+   94  	•	carry vs overflow logic
+   95  	•	shifts / bitwise operations
+   96  	•	whether alu() is using your ripple-carry adder correctly
+   97  	3.	Rebuild and rerun:
+   98  make week1
+   99  bin/test-hw
+  100  A very common reason for this exact result is:
+  101  	•	the arithmetic result looks right, but N/Z/C/V flags are wrong
+  102  	•	or subtracti
+  103  make week1
+  104  bin/test-hw
+  105  git add .
+  106  git commit -m "SE week 1 2.0"
+  107  git push
+  108  git pull git@github.com:Nvansice/PracticeCLPT.git
+  109  git pull
+  110  ls
+  111  cd PracticeCLPT
+  112  ls
+  113  git pull
+  114  ls
+  115  make shlotzkeys
+  116  cd
+  117  ls
+  118  cd PracticeCLPT
+  119  ls
+  120  cd f2025e2-f-master/
+  121  ls
+  122  cd makefile
+  123  cd Makefile
+  124  make potbelly
+  125  make cheba
+  126  chmod +x ret_order
+  127  cd .
+  128  cd .
+  129  cd ..
+  130  ls
+  131  rm f2025e2-f-master
+  132  rm -f f2025e2-f-master
+  133  rm -r f2025e2-f-master/
+  134  ls
+  135  ls
+  136  cd PracticeCLPT
+  137  git pull
+  138  ls
+  139  cd f2025e2-f-master
+  140  git pull
+  141  cd f2025e2-f-master
+  142  ls
+  143  ls
+  144  cat ref_sb
+  145  rm -r f20225e22-f-master
+  146  rm -r f2025e2-f-master
+  147  cd ..
+  148  rm -r f2025e2-f-master
+  149  git pull
+  150  cd ..
+  151  ls
+  152  rm -r PracticeCLPT
+  153  y
+  154  ls
+  155  git clone git@github.com:Nvansice/PracticeCLPT.git
+  156  ls
+  157  cd PracticeCLPT
+  158  ls
+  159  cd f2025e2-f-master
+  160  make potbelly
+  161  make cheba
+  162  gdb
+  163  gdb testcases/catdel.trace 
+  164  gdb bin/sb 
+  165  make potbelly
+  166  gdb bin/sb
+  167  gdb bin/sb
+  168  make subway
+  169  make potbelly
+  170  make cheba
+  171  gdb bin/sb 
+  172  make subway
+  173  make potbelly
+  174  make cheba
+  175  gdb bin/sb
+  176  make potbelly
+  177  gdb bin/sb
+  178  make mikes
+  179  make potbelly
+  180  make subway
+  181  make potbelly
+  182  gdb bin/sb
+  183  make subway
+  184  make potbelly
+  185  make cheba
+  186  gdb bin/sb
+  187  make subway
+  188  make potbelly
+  189  make cheba
+  190  make subway
+  191  make potbelly
+  192  make cheba
+  193  gdb bin/sb run testcases/helloworld.trace
+  194  run testcases/helloworld.trace 
+  195  rn testcases/helloworld.trace 
+  196  cat history "shell_logs.txt"
+  197  cat history >> "shell_logs.txt"
+  198  history | cat >> "shell_logs.txt"
+  199  git add .
+  200  git commit -m "finished"
+  201  git push
+  202  cd ..
+  203  git pull
+  204  ls
+  205  cd mastery-version-alpha-master
+  206  make stitch
+  207  make lilo
+  208  make nani
+  209  gdb bin/second_trie
+  210  make stitch
+  211  make lilo
+  212  make nani
+  213  gdb bin/second_trie 
+  214  make stitch
+  215  make lilo
+  216  make nani
+  217  make stitch
+  218  make lilo
+  219  make nani
+  220  gdb bin/second_trie 
+  221  make stitch
+  222  make lilo
+  223  make nani
+  224  make stitch
+  225  make lilo
+  226  make nani
+  227  make lilo
+  228  make stitch
+  229  make lilo
+  230  make nani
+  231  gdb bin/second_trie 
+  232  make stitch
+  233  make stithc
+  234  make stitch
+  235  make stitch
+  236  make lilo
+  237  make nani
+  238  gdb bin/second_trie 
+  239  make stitch
+  240  make lilo
+  241  gdb bin/second_trie 
+  242  make lilo
+  243  make stitch
+  244  gdb bin/second_trie 
+  245  make stitch
+  246  make lilo
+  247  make nani
+  248  make stitch
+  249  make lilo
+  250  make nani
+  251  make stitch
+  252  make stitch
+  253  make lilo
+  254  make nani
+  255  history | cat >> "shell_logs.txt
+  256  e
+  257  exit
+  258  q
+  259  "
+  260  git add .
+  261  git commit -m "finished"
+  262  git push
+  263  git add . 
+  264  git commit -m "finished"
+  265  cd ..
+  266  cd ..
+  267  ls
+  268  exit
+  269  git pull
+  270  echo "set history save on" >> ~/.gdbinit
+  271  ls -a
+  272  cat ~/.gdbinit
+  273  cd mastery-version-b-master
+  274  ls
+  275  ls -a
+  276  echo "set history save on" >> ~/.gdbinit
+  277  ls -a
+  278  make 
+  279  make debug
+  280  make tests
+  281  make check
+  282  gdb mini_ci
+  283  make 
+  284  make debug
+  285  make debug
+  286  make debug
+  287  make check
+  288  make clean
+  289  make debug
+  290  gdb mini_ci
+  291  make clean
+  292  make debug
+  293  make check
+  294  gdb mini_ci
+  295  make clean
+  296  make 
+  297  make check
+  298  make clean
+  299  gdb mini_ci
+  300  make clean
+  301  make debug
+  302  gdb mini_ci
+  303  make clean
+  304  make debug
+  305  make cehck
+  306  make check
+  307  make tests
+  308  make clean
+  309  make check
+  310  make clean
+  311  make debug
+  312  make check
+  313  make clean
+  314  make debug
+  315  make check
+  316  gdb mini_ci
+  317  make clean
+  318  make debug
+  319  make check
+  320  make clean
+  321  make debug
+  322  make check
+  323  gdb mini_ci
+  324  cat mini_ci_reference 
+  325  make clean
+  326  make debug
+  327  gdb mini_ci
+  328  make clean
+  329  make debug
+  330  make clean
+  331  make debug
+  332  make check
+  333  ls
+  334  cd mastery-version-b-master/
+  335  make clean
+  336  make debug
+  337  make check
+  338  gdb mini_ci
+  339  make clean
+  340  make debug
+  341  make check
+  342  make clean
+  343  make debug
+  344  make check
+  345  gdb mini_ci
+  346  make clean
+  347  make debug
+  348  make clean
+  349  make debug
+  350  make check
+  351  make debug
+  352  make clean
+  353  make debug
+  354  make check
+  355  make clean
+  356  make debug
+  357  make check
+  358  make clean
+  359  make debug
+  360  make clean
+  361  make debug
+  362  make check
+  363  make clean
+  364  make debug
+  365  make check
+  366  gdb mini_ci
+  367  make clean
+  368  make debug
+  369  make clean
+  370  make debug
+  371  make check
+  372  make clean
+  373  make debug
+  374  make check
+  375  make clean
+  376  make debug
+  377  make check
+  378  history | cat "shell_logs.txt"
+  379  history | cat >> "shell_logs.txt"
+  380  git add .
+  381  git commit -m "finished"
+  382  git push
+  383  cd ..
+  384  git pull
+  385  cd mastery-version-beta-master/
+  386  make clean
+  387  make moana
+  388  make clean
+  389  make maui
+  390  make clean
+  391  make nalo
+  392  make maui
+  393  make tamatoa
+  394  gdb bin/second_trie 
+  395  make nalo
+  396  make maui
+  397  make tamatoa
+  398  history | cat >> "shell_logs.txt"
+  399  git add .
+  400  git commit-M "finished"
+  401  git commit -M "finished"
+  402  git commit -m "finished"
+  403  git push
+  404  cd ..
+  405  git pull .
+  406  git pull
+  407  cd mastery-version-c-master/
+  408  echo "set history save on" >> ~/.gdbinit
+  409  cat ~/.gdbinit 
+  410  ls -a
+  411  make debug
+  412  make check
+  413  run testcases/basic_add.s 
+  414  gdb mini_ci
+  415  make clean
+  416  make debug
+  417  make check
+  418  gdb mini_ci
+  419  make clean
+  420  make debug
+  421  make check
+  422  make clean
+  423  make debug
+  424  make clean
+  425  make debug
+  426  make check
+  427  make clean
+  428  make debug
+  429  make check
+  430  gdb mini_ci
+  431  make clean
+  432  make debug
+  433  make check
+  434  gdb mini_ci
+  435  make clean
+  436  make debug
+  437  make check
+  438  mini_ci_reference testcases/basic_add.s 
+  439  make clean
+  440  make debug
+  441  make clean
+  442  make debug
+  443  make check
+  444  make clean
+  445  make debug
+  446  make check
+  447  make clean
+  448  make debug
+  449  make clean
+  450  make debug
+  451  make check
+  452  exit
+  453  history | cat >> "Shell_logs.txt"
+  454  git add .\
+  455  git add .
+  456  git commit -m "done no pass"
+  457  git push
+  458  git pull
+  459  cd mastery-version-e-master/
+  460  make debug 
+  461  make check
+  462  gdb mini_ci
+  463  make clean
+  464  make debug
+  465  make check
+  466  echo "set history save on" >> ~/.gdbinit
+  467  history | cat >> shell_logs.txt
+  468  gdb mini_ci
+  469  >> gdb_logs.txt
+  470  gdb mini_ci
+  471  git pull
+  472  echo "set history save on" >> Shell_logs.txt
+  473  echo "set history save on" >> ~/.gdbinit
+  474  make debug
+  475  make clean
+  476  cd mastery-version-f-master/
+  477  make debug
+  478  make check
+  479  make comp
+  480  gdb bin/a.out 
+  481  make clean
+  482  make debug
+  483  make comp
+  484  gdb bin/a.out 
+  485  make clean
+  486  make debug
+  487  make comp
+  488  gdb bin/a.out 
+  489  make clean
+  490  make debug
+  491  make comp
+  492  gdb bin/a.out 
+  493  make clean
+  494  make debug
+  495  gdb
+  496  gdb bin/a.out 
+  497  make clean
+  498  make debug
+  499  make comp
+  500  cd mastery-version-f-master/
+  501  make clean
+  502  make debug
+  503  make clean
+  504  make debug
+  505  gdb bin/a.out 
+  506  make clean
+  507  make debug
+  508  make comp
+  509  gdb bin/a.out 
+  510  make clean
+  511  make debug
+  512  gdb bin/a.out 
+  513  make clean
+  514  make debug
+  515  make comp
+  516  gdb bin/a.out 
+  517  make clean
+  518  make debug
+  519  make comp
+  520  gdb bin/a.out 
+  521  make clean
+  522  make debug
+  523  make comp
+  524  make clean
+  525  make debug
+  526  make comp
+  527  history | cat >> shell_logs.txt
+  528  git add .
+  529  git commit -m "fail"
+  530  git push
+  531  cd ..
+  532  git pull
+  533  cd mastery-version-g-master/
+  534  echo "Set history save on" >> ~/.gdbinit
+  535  make debug
+  536  make comp
+  537  gdb bin/a.out 
+  538  make clean
+  539  make debug
+  540  make comp
+  541  gdb bin/a.out 
+  542  make clean
+  543  make debug
+  544  make comp
+  545  make clean
+  546  make debug
+  547  make comp
+  548  make clean
+  549  make debug
+  550  make comp
+  551  history | cat >> shell_logs.txt
